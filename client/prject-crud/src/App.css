@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+    
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.datos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1em;
+  width: 100%;
+}
+
+label {
+  margin: 10px;
+}
+
+.datos input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.datos button {
+  /* background-color: #f5a461;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  width: 120px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer; */
+  width: 300px;
+}
